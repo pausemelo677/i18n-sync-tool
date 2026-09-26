@@ -1,0 +1,21 @@
+{
+  "name": "i18n-sync-tool",
+  "version": "1.0.0",
+  "description": "CLI that detects missing i18n keys in Next.js and syncs with Lingo.dev",
+  "main": "src/index.js",
+  "bin": {
+    "i18n-sync": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node bin/cli.js check"
+  },
+  "keywords": ["i18n", "nextjs", "lingo.dev"],
+  "author": "pausemelo677",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.10",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0"
+  }
+}
